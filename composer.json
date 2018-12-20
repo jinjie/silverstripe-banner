@@ -1,0 +1,22 @@
+{
+    "name": "jinjie/silverstripe-banner",
+    "description": "Adds SlickJS banner into any SilverStripe 4 pages",
+    "keywords": ["silverstripe", "slickjs", "slick"],
+    "type": "silverstripe-vendormodule",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Kong Jin Jie",
+            "email": "jinjie@swiftdev.sg"
+        }
+    ],
+    "require": {
+        "silverstripe/framework": "^4",
+        "symbiote/silverstripe-gridfieldextensions": "^3"
+    },
+    "extra": {
+        "expose": [
+            "resources/javascript"
+        ]
+    }
+}
